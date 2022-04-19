@@ -1,0 +1,73 @@
+/** Formatação Geral**/
+ 
+ html {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: Arial, sans-serif;
+ 	font-size: 16px;
+ 	background-color: #E4DBAE;
+ }
+
+ /** Formatação Conteúdo**/
+
+.container {
+	width: 400px;
+	height: 300px;
+	padding: 10px 8px;
+	border-radius: 10px;
+	background-color: #1E110A;
+	opacity: 0.5;
+	margin: 150px auto;
+}
+
+h1 {
+	color: #FFF;
+	padding-left: 15px;
+}
+
+#formulario {
+	padding: 0 15px;
+	color: #fff;
+}
+label {
+	padding-top: 10px;
+
+}
+#peso {
+	display: block;
+	padding: 5px;
+	width: 350px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#altura {
+	display: block;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 350px;
+}
+
+button {
+	width: 365px;
+	height: 30px;
+	padding: 5px;
+	color: #FFF;
+	background-color: #0A0503;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #E4DBAE;
+	color: #0A0503;
+}
+
+/** Formatação resultado**/
+
+div {
+	color: #FFF;
+	padding-left: 15px;
+	padding-top: 5px;
+}
